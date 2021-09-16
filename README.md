@@ -1,3 +1,14 @@
+
+Description:
+This project shows how to run a Blazor web app published with Azure Static Web Apps.
+
+![Screen Shot 2021-09-15 at 10 41 45 PM](https://user-images.githubusercontent.com/68759170/133540810-901bc876-870d-4e78-8dad-3e4dda26294a.png)
+
+
+
+
+
+
 # Blazor Starter Application
 
 This template contains an example [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly) client application, a C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) and a C# class library with shared code.
