@@ -1,4 +1,5 @@
 Patricia Andreica
+
 https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
 ## Description
 This project shows running a Blazor web app that is automatically built and deployed using Azure Static Web Apps.
