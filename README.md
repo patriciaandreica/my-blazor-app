@@ -1,4 +1,4 @@
-
+Patricia Andreica
 ## Description
 This project shows running a Blazor web app that is automatically built and deployed using Azure Static Web Apps.
 
