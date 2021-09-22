@@ -1,12 +1,12 @@
 ﻿@page "/ipo"
 
-<h1>IPO</h1>
+<h1>IPO - Calculating Meal Price + Tax</h1>
 
 <p>Input prompt </p>
 
 <input @bind="InputString " />
 
-<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+<button class="btn btn-primary" @onclick="DoProcessing">Calculate your Meal Total!</button>
 
 <p>Output: @OutputString </p>
 
@@ -24,7 +24,7 @@
 
         double num = double.Parse(InputString);
 
-        num = num * 2;
+        num = num * 5;
 
         OutputString = num.ToString();
 
