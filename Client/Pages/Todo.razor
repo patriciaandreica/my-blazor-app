@@ -2,7 +2,7 @@
 
 <h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
 
-<ul>
+<ul> 
     @foreach (var todo in todos)
     {
         <li>
@@ -16,15 +16,15 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
-    private List<TodoItem> todos = new();
+    private List<TodoItem> todos = new(); // this will save the items entered
     private string newTodo;
 
-    private void AddTodo()
+    private void AddTodo() // functionality for adding items to the list
     {
-        if (!string.IsNullOrWhiteSpace(newTodo))
+        if (!string.IsNullOrWhiteSpace(newTodo)) // if user does not enter something
         {
-            todos.Add(new TodoItem { Title = newTodo });
-            newTodo = string.Empty;
+            todos.Add(new TodoItem { Title = newTodo }); // then add new item
+            newTodo = string.Empty; // setting to empty string
         }
     }
 }
