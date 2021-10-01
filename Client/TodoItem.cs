@@ -1,10 +1,5 @@
-﻿using System;
-namespace BlazorApp.Client
+﻿public class TodoItem
 {
-    public class TodoItem
-    {
-        public TodoItem()
-        {
-        }
-    }
+    public string Title { get; set; }
+    public bool IsDone { get; set; }
 }
